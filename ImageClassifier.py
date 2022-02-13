@@ -14,14 +14,14 @@ fashion_mnist = keras.datasets.fashion_mnist
 
 # show one image from the set using pyplot
 # first image is of an ankle boot
-# print(train_labels[0])
-# print(train_labels[1])
-# print(train_labels[2])
-# print(train_labels[3])
-# print(train_labels[4])
+print(train_labels[0])
+print(train_labels[1])
+print(train_labels[2])
+print(train_labels[3])
+print(train_labels[4])
 
 plt.imshow(train_images[3], cmap='gray', vmin=0, vmax=255)
-# plt.show()
+plt.show()
 
 # define neural net structure
 model = keras.Sequential([
